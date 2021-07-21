@@ -1,0 +1,5 @@
+# ninja log v5
+7	244	6485343696647018	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	641c2aa3d064a63
+0	287	6485343697115757	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/cpu-port.o	6ba84d314491fe9a
+11	331	6485343697584491	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/multitarefas.o	cd32b778bdf0ab87
+340	457	6485343698834465	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	e51fe98766b71c66

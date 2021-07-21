@@ -8,14 +8,12 @@
  */
 void tarefa_1(void);
 void tarefa_2(void);
-void tarefa_3(void);
 
 /*
  * Configuracao dos tamanhos das pilhas
  */
 #define TAM_PILHA_1		(TAM_MINIMO_PILHA + 24)
 #define TAM_PILHA_2		(TAM_MINIMO_PILHA + 24)
-#define TAM_PILHA_3		(TAM_MINIMO_PILHA + 24)
 #define TAM_PILHA_OCIOSA	(TAM_MINIMO_PILHA + 24)
 
 /*
@@ -23,8 +21,10 @@ void tarefa_3(void);
  */
 uint32_t PILHA_TAREFA_1[TAM_PILHA_1];
 uint32_t PILHA_TAREFA_2[TAM_PILHA_2];
-uint32_t PILHA_TAREFA_3[TAM_PILHA_3];
 uint32_t PILHA_TAREFA_OCIOSA[TAM_PILHA_OCIOSA];
+
+// variaveis de teste para ter nocao de quantas vezes cada thread foi executada
+unsigned int c = 0, d=0;
 
 /*
  * Funcao principal de entrada do sistema
@@ -38,11 +38,11 @@ int main(void)
 	CriaTarefa(tarefa_1, "Tarefa 1", PILHA_TAREFA_1, TAM_PILHA_1, 1);
 	
 	CriaTarefa(tarefa_2, "Tarefa 2", PILHA_TAREFA_2, TAM_PILHA_2, 2);
-        
-    CriaTarefa(tarefa_3, "Tarefa 3", PILHA_TAREFA_3, TAM_PILHA_3, 3);
 	
 	/* Cria tarefa ociosa do sistema */
 	CriaTarefa(tarefa_ociosa,"Tarefa ociosa", PILHA_TAREFA_OCIOSA, TAM_PILHA_OCIOSA, 0);
+        
+        printf("Criou as tarefas");
 	
 	/* Configura marca de tempo */
 	ConfiguraMarcaTempo();   
@@ -50,12 +50,17 @@ int main(void)
 	/* Inicia sistema multitarefas */
 	IniciaMultitarefas();
 	
+        /* MODO COOPERATIVO - Usando a interrupcao da troca de contexto que foi ativada na
+         * interrupcao de timer em 'cpu-port.c'. Assim sendo, quando a tarefa_2 libera a CPU 
+         * por meio de um delay 'TarefaEspera(100)', neste momento é ativada a troca de contexto 
+         * e a tarefa_1 de menor prioridade volta a executar até que o tempo de espera termine
+         */ 
+
 	/* Nunca chega aqui */
 	while (1)
 	{
 	}
 }
-
 
 /* Tarefas de exemplo que usam funcoes para suspender/continuar as tarefas */
 void tarefa_1(void)
@@ -64,27 +69,25 @@ void tarefa_1(void)
 	for(;;)
 	{
 		a++;
-		TarefaContinua(2);
-	
+                if(a==65000){
+                  c++;
+                  a = 0;
+                }
+                //TarefaContinua(2);                
 	}
 }
-
+/*
+ * tarefa 2 tem maior prioridade e tempo de espera de 100ms
+ * 
+ */
 void tarefa_2(void)
 {
-	volatile uint16_t b = 0;
-	for(;;)
-	{
-		b++;
-		TarefaSuspende(2);	
-	}
-}
-
-void tarefa_3(void)
-{
-	volatile uint16_t c = 0;
-	for(;;)
-	{
-		c++;
-		TarefaSuspende(4);	//espera 4 segundos
-	}
+        volatile uint16_t b = 0;
+        for(;;)
+        {
+                b++;
+                d++;
+                TarefaEspera(100);
+                //TarefaSuspende(2);
+        }   	
 }

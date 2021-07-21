@@ -1,0 +1,18 @@
+# ninja log v5
+51	184	6485343170000000	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/cpu-port.xcl	337f54f3aa6ac571
+1	194	6485343170000000	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.xcl	3cfd3a6777968ff6
+54	205	6485343170000000	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/multitarefas.xcl	86303b1f79d8d3bd
+192	264	6485343178405812	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/cpu-port.pbi	ed3be87b46375e27
+215	273	6485343178562055	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/multitarefas.pbi	867965eb40a9372a
+203	362	6485343179444768	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	475756d31b2c37c2
+367	383	6485343179674596	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	a85a5c4e872d1404
+391	696	6485343182563808	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	f28e82e51a10032
+1	50	6485343586309084	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/cpu-port.pbi	ed3be87b46375e27
+56	73	6485343586621564	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	a85a5c4e872d1404
+81	382	6485343589415243	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	f28e82e51a10032
+1	54	6485343741426744	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	475756d31b2c37c2
+59	76	6485343741582953	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	a85a5c4e872d1404
+85	391	6485343744551675	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	f28e82e51a10032
+0	52	6485343997026870	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	475756d31b2c37c2
+59	75	6485343997339349	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	a85a5c4e872d1404
+84	389	6485344000308016	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	f28e82e51a10032
