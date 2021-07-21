@@ -50,15 +50,10 @@ int main(void)
 	/* Inicia sistema multitarefas */
 	IniciaMultitarefas();
 	
-        /* MODO COOPERATIVO - Temos duas tarefas executando, ambas periódicas de tempo
-         * 2ms e 100ms. Assim como está, ambas executam e voltam a dormir, mas caso removemos
-         * o Delay da tarefa_1, ela vai ficar eternamente executando e não irá liberar a CPU
-         * a menos que se de o comando de Suspender, Continuar ou inserir novamente o dalay.
-         * Neste ultimo caso, quando nenhuma das tarefas está executando, a tarefa ociosa
-         * entra em acao para ficar gastando CPU.
-         
-         * No Cooperativo temos menor preocupação com recursos compartilhados e funcoes nao reentrantes 
-         * pelo motivo de que a tarefa so troca de contexto quando estiver pronta.
+        /* MODO PREEMPTIVO - Usando a interrupcao da troca de contexto que foi ativada na
+         * interrupcao de timer em 'cpu-port.c'. Assim sendo, quando a tarefa_2 libera a CPU 
+         * por meio de um delay 'TarefaEspera(100)', neste momento e ativada a troca de contexto 
+         * e a tarefa_1 de menor prioridade volta a executar ate que o tempo de espera termine
          */ 
 
 	/* Nunca chega aqui */
@@ -70,11 +65,15 @@ int main(void)
 /* Tarefas de exemplo que usam funcoes para suspender/continuar as tarefas */
 void tarefa_1(void)
 {
+	volatile uint16_t a = 0;
 	for(;;)
 	{
-                c++;
-                TarefaEspera(2);
-                //TarefaSuspende(1);                
+		a++;
+                if(a==65000){
+                  c++;
+                  a = 0;
+                }
+                //TarefaContinua(2);                
 	}
 }
 /*
@@ -83,8 +82,10 @@ void tarefa_1(void)
  */
 void tarefa_2(void)
 {
+        volatile uint16_t b = 0;
         for(;;)
         {
+                b++;
                 d++;
                 TarefaEspera(100);
                 //TarefaSuspende(2);

@@ -5421,10 +5421,24 @@
     "display": "void tarefa_1(void)",
     "location": {
       "column": "6",
-      "line": "71",
+      "line": "66",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1827@F@tarefa_1@a",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "a",
+    "location": {
+      "column": "20",
+      "line": "68",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "a",
     "origin": "project_file",
     "scope": null
   },
@@ -5435,10 +5449,24 @@
     "display": "void tarefa_2(void)",
     "location": {
       "column": "6",
-      "line": "84",
+      "line": "83",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2143@F@tarefa_2@b",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "b",
+    "location": {
+      "column": "27",
+      "line": "85",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "b",
     "origin": "project_file",
     "scope": null
   },
