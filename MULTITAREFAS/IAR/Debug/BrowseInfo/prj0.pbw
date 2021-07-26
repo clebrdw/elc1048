@@ -4009,7 +4009,7 @@
     "scope": null
   },
   {
-    "ID": "c:multitarefas.h@405@macro@cfg_CPU_CLOCK_HZ",
+    "ID": "c:multitarefas.h@409@macro@cfg_CPU_CLOCK_HZ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "cfg_CPU_CLOCK_HZ",
@@ -4023,7 +4023,7 @@
     "scope": null
   },
   {
-    "ID": "c:multitarefas.h@503@macro@cfg_MARCA_TEMPO_HZ",
+    "ID": "c:multitarefas.h@507@macro@cfg_MARCA_TEMPO_HZ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "cfg_MARCA_TEMPO_HZ",
@@ -6309,10 +6309,24 @@
     "display": "void produtor(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "produtor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@produtor2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void produtor2(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "produtor2",
     "origin": "project_file",
     "scope": null
   },
@@ -6323,7 +6337,7 @@
     "display": "void consumidor(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "13",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "consumidor",
@@ -6331,13 +6345,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@235@macro@TAM_PILHA_1",
+    "ID": "c:main.c@260@macro@TAM_PILHA_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_1",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "18",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_1",
@@ -6345,13 +6359,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@281@macro@TAM_PILHA_2",
+    "ID": "c:main.c@306@macro@TAM_PILHA_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_2",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "19",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_2",
@@ -6359,13 +6373,27 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@327@macro@TAM_PILHA_OCIOSA",
+    "ID": "c:main.c@352@macro@TAM_PILHA_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TAM_PILHA_3",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "TAM_PILHA_3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@398@macro@TAM_PILHA_OCIOSA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_PILHA_OCIOSA",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "21",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_PILHA_OCIOSA",
@@ -6373,13 +6401,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@377@macro@TAM_BUFFER",
+    "ID": "c:main.c@448@macro@TAM_BUFFER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TAM_BUFFER",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "22",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "TAM_BUFFER",
@@ -6393,10 +6421,24 @@
     "display": "PILHA_PRODUTOR",
     "location": {
       "column": "10",
-      "line": "24",
+      "line": "27",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_PRODUTOR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@PILHA_PRODUTOR2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "PILHA_PRODUTOR2",
+    "location": {
+      "column": "10",
+      "line": "28",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "PILHA_PRODUTOR2",
     "origin": "project_file",
     "scope": null
   },
@@ -6407,7 +6449,7 @@
     "display": "PILHA_CONSUMIDOR",
     "location": {
       "column": "10",
-      "line": "25",
+      "line": "29",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_CONSUMIDOR",
@@ -6421,7 +6463,7 @@
     "display": "PILHA_TAREFA_OCIOSA",
     "location": {
       "column": "10",
-      "line": "26",
+      "line": "30",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "PILHA_TAREFA_OCIOSA",
@@ -6435,7 +6477,7 @@
     "display": "cheio",
     "location": {
       "column": "12",
-      "line": "30",
+      "line": "34",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "cheio",
@@ -6449,10 +6491,24 @@
     "display": "vazio",
     "location": {
       "column": "12",
-      "line": "31",
+      "line": "35",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "vazio",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@mutex",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "mutex",
+    "location": {
+      "column": "12",
+      "line": "36",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "mutex",
     "origin": "project_file",
     "scope": null
   },
@@ -6463,7 +6519,7 @@
     "display": "buffer",
     "location": {
       "column": "10",
-      "line": "33",
+      "line": "38",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "buffer",
@@ -6477,7 +6533,7 @@
     "display": "i",
     "location": {
       "column": "9",
-      "line": "34",
+      "line": "39",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "i",
@@ -6491,10 +6547,24 @@
     "display": "j",
     "location": {
       "column": "14",
-      "line": "34",
+      "line": "39",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@k",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "k",
+    "location": {
+      "column": "18",
+      "line": "39",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "k",
     "origin": "project_file",
     "scope": null
   },
@@ -6504,8 +6574,8 @@
     "defdec": "Dec",
     "display": "valor_lido",
     "location": {
-      "column": "19",
-      "line": "34",
+      "column": "23",
+      "line": "39",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "valor_lido",
@@ -6519,7 +6589,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "39",
+      "line": "44",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "main",
@@ -6533,10 +6603,24 @@
     "display": "void produtor(void)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "71",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "produtor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@produtor2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void produtor2(void)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "produtor2",
     "origin": "project_file",
     "scope": null
   },
@@ -6547,7 +6631,7 @@
     "display": "void consumidor(void)",
     "location": {
       "column": "6",
-      "line": "85",
+      "line": "111",
       "path": "C:\\Users\\Cleber Werlang\\Documents\\IAR Embedded Workbench\\arm\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "consumidor",
