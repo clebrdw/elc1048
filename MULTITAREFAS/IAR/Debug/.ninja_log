@@ -40,3 +40,7 @@
 204	321	6490307148826093	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	e51fe98766b71c66
 1	186	6490308884444064	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	641c2aa3d064a63
 194	299	6490308885694018	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	e51fe98766b71c66
+1	265	6491312608098072	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/cpu-port.o	6ba84d314491fe9a
+6	283	6491312608254348	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	641c2aa3d064a63
+10	356	6491312609035553	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Obj/multitarefas.o	cd32b778bdf0ab87
+365	476	6491312610285500	C:/Users/Cleber Werlang/Documents/IAR Embedded Workbench/arm/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	e51fe98766b71c66
